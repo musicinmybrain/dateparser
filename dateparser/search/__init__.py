@@ -41,7 +41,7 @@ def search_dates(text, languages=None, settings=None, add_detected_language=Fals
         >>> search_dates('The first artificial Earth satellite was launched on 4 October 1957.')
         [('on 4 October 1957', datetime.datetime(1957, 10, 4, 0, 0))]
 
-        >>> search_dates('The first artificial Earth satellite was launched on 4 October 1957.',
+        >>> search_dates('The first artificial Earth satellite was launched on 4 October 1957.')
         >>>              add_detected_language=True)
         [('on 4 October 1957', datetime.datetime(1957, 10, 4, 0, 0), 'en')]
 
